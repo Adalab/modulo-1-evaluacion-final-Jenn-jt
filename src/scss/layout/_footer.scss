@@ -95,26 +95,43 @@ ul {
     order: -1;
 }
 
+.footer__nav1{
+    order: 2;
+}
+
+.footer__nav2{
+    order: 3;
+}
+
 .footer {
     flex-direction: row;
     justify-content: space-around;
     position:relative;
+    text-align: left;
 
 }
 }
 /*desktop*/
 @media screen and (min-width: 1280px) {
 
-.article1 {
-    order: 2;
-}
+    .footer__heart--2023 {
+        order: -1;
+    }
 
-.article2 {
-    order: 3;
-}
+.footer__nav1 {
+        order: 2;
+    }
 
+.footer__nav2 {
+        order: 3;
+    }
 .footer {
     justify-content: center;
+    text-align: left;
+    flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+    
 }
 
 .article1,
