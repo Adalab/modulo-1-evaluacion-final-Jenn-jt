@@ -1,0 +1,94 @@
+.hero{
+    background-image: url("../images/cover.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    color: $color-white;
+    margin: 0px;
+    font-family: $font-secundary
+    
+}
+
+.hero__title{
+    font-size: 42px;
+    margin: 240px 0 10px 15px;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.hero__subtitle{
+    height: 21px;
+    margin: 10px 0 45px 15px;
+    font-family: $font-main;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+
+}
+.icon-scroll {
+    width: 20px;
+    height: 12px;
+    object-fit: contain;
+    background-color: $color-white;  
+    }
+    
+.hero__container--circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    }
+
+.hero__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+    hero__title {
+        font-size: 80px;
+        line-height: 106px;
+        margin-top: 35%;
+    }
+    .hero__subtitle {
+        font-size: 24px;
+    }
+
+    .hero__container--circle {
+    
+    }
+}
+
+/*desktop*/
+@media screen and (min-width: 1280px) {
+    .hero__title {
+        font-size: 100px;
+        line-height: 132px;
+        margin: 1200px 250px 0 231px;
+    }
+
+    .hero__container--circle {
+        margin: 30px 342px 0 615px;
+    }
+}
