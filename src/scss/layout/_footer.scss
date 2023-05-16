@@ -85,7 +85,7 @@ ul {
 @media screen and (min-width: 768px) {
 .footer__containerarrow--circlearrow {
     position: absolute; 
-    transform: translateY(-150px);
+    transform: translateY(-20px);
 
     }
 
@@ -107,6 +107,7 @@ ul {
     justify-content: space-around;
     position:relative;
     text-align: left;
+    height: fit-content;
 
 }
 }
@@ -129,10 +130,15 @@ ul {
     text-align: left;
     flex-direction: row;
     justify-content: space-around;
-    position: relative;
-
-    
+    position: relative;   
 }
+
+.footer__containerarrow--circlearrow {
+    position: absolute;
+    transform: translateY(-60px);
+
+}
+
 
 .article1,
 .article2,
